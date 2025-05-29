@@ -1,0 +1,19 @@
+[
+  {
+    "name": "medusa",
+    "image": "medusajs/medusa:latest",
+    "portMappings": [
+      {
+        "containerPort": 9000,
+        "hostPort": 9000,
+        "protocol": "tcp"
+      }
+    ],
+    "environment": [
+      {
+        "name": "NODE_ENV",
+        "value": "production"
+      }
+    ]
+  }
+]
